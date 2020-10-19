@@ -84,7 +84,7 @@ class _MyHomePageState extends State<ForgotPasswordScreen> {
     return Scaffold(
       body: Container(
         padding: EdgeInsets.fromLTRB(50.0, 100.0, 50.0, 50.0),
-        constraints: BoxConstraints.expand(),
+       // constraints: BoxConstraints.expand(),
         color: Colors.white,
 
         child: Column(

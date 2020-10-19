@@ -84,14 +84,13 @@ class _MyHomePageState extends State<SignUp> {
     return Scaffold(
       body: Container(
         padding: EdgeInsets.fromLTRB(50.0, 100.0, 50.0, 50.0),
-        constraints: BoxConstraints.expand(),
+        //constraints: BoxConstraints.expand(),
         color: Colors.white,
 
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Text('Sign Up', style: TextStyle(fontSize: 35, fontWeight: FontWeight.bold),),
